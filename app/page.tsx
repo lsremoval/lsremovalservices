@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import DispatchTicket from "@/components/DispatchTicket";
+import Testimonials from "@/components/Testimonials";
 import { services } from "@/lib/services";
 import { areas } from "@/lib/areas";
 import { business, telHref, smsHref } from "@/lib/business";
@@ -28,7 +29,7 @@ export default function Home() {
               <span className="text-ember">WE&rsquo;RE ALREADY EN ROUTE.</span>
             </h1>
             <p className="text-ivory/80 text-lg max-w-xl mb-8 leading-relaxed">
-              Fireman-owned junk removal for furniture, appliances, garages,
+              Firefighter-owned junk removal for furniture, appliances, garages,
               attics, sheds, and full property cleanouts. Text a photo,
               get a real price, and never lift a finger.
             </p>
@@ -67,7 +68,7 @@ export default function Home() {
       <section className="bg-ivory-warm border-b-2 border-navy/10">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-6 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
-            ["Fireman-Owned", "Local & accountable"],
+            ["Firefighter-Owned", "Local & accountable"],
             ["Same-Day Quotes", "Text a photo, get a price"],
             ["No Forms", "Just call or text"],
             ["Taylorsville → Charlotte", "Full corridor coverage"],
@@ -185,6 +186,8 @@ export default function Home() {
           />
         </div>
       </section>
+
+      <Testimonials />
 
       {/* SERVICE AREA */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-16 sm:py-24">

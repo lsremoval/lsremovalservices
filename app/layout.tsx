@@ -12,15 +12,16 @@ import Footer from "@/components/Footer";
 import MobileCTABar from "@/components/MobileCTABar";
 import { business } from "@/lib/business";
 import { areas } from "@/lib/areas";
+import { reviews } from "@/lib/reviews";
 
 export const metadata: Metadata = {
   metadataBase: new URL(business.url),
   title: {
-    default: `${business.name} | Fireman-Owned Junk Removal in Taylorsville, NC`,
+    default: `${business.name} | Firefighter-Owned Junk Removal in Taylorsville, NC`,
     template: `%s | ${business.name}`,
   },
   description:
-    "Fireman-owned junk removal serving Taylorsville, NC to Charlotte. Furniture, appliance, garage, attic, shed & estate cleanouts. Text a photo for a same-day quote.",
+    "Firefighter-owned junk removal serving Taylorsville, NC to Charlotte. Furniture, appliance, garage, attic, shed & estate cleanouts. Text a photo for a same-day quote.",
   keywords: [
     "junk removal Taylorsville NC",
     "junk removal near me",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     "junk removal Hickory NC",
   ],
   openGraph: {
-    title: `${business.name} | Fireman-Owned Junk Removal`,
+    title: `${business.name} | Firefighter-Owned Junk Removal`,
     description:
       "Furniture, appliance, garage, attic, shed & estate cleanouts across Taylorsville, NC to Charlotte. Text a photo for a same-day quote.",
     url: business.url,
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${business.name} | Fireman-Owned Junk Removal`,
+    title: `${business.name} | Firefighter-Owned Junk Removal`,
     description:
       "Furniture, appliance, garage, attic, shed & estate cleanouts across Taylorsville, NC to Charlotte.",
     images: ["/images/og-image.jpg"],
@@ -75,6 +76,23 @@ export default function RootLayout({
     },
     areaServed: areas.map((a) => `${a.city} NC`),
     url: business.url,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: (
+        reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length
+      ).toFixed(1),
+      reviewCount: reviews.length,
+    },
+    review: reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.name },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: r.rating,
+        bestRating: 5,
+      },
+      reviewBody: r.text,
+    })),
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",

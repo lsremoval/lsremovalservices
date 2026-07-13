@@ -1,7 +1,7 @@
 export const business = {
   name: "L&S Removal Services",
   legalName: "L&S Removal Services LLC",
-  tagline: "Fireman-Owned Junk Removal",
+  tagline: "Firefighter-Owned Junk Removal",
   phone: "(828) 639-1126",
   phoneRaw: "+18286391126",
   email: "info@lsremovalservices.com",
@@ -9,7 +9,7 @@ export const business = {
   state: "NC",
   region: "Alexander County & the greater Charlotte area",
   url: "https://www.lsremovalservices.com",
-  founded: "Fireman-owned and operated",
+  founded: "Firefighter-owned and operated",
   hours: [
     { day: "Monday – Saturday", time: "7:00 AM – 7:00 PM" },
     { day: "Sunday", time: "By request" },

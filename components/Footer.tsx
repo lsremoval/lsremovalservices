@@ -12,7 +12,7 @@ export default function Footer() {
             L&amp;S REMOVAL SERVICES
           </p>
           <p className="text-sm text-ivory/70 leading-relaxed mb-4">
-            Fireman-owned junk removal serving Taylorsville, NC and every stop
+            Firefighter-owned junk removal serving Taylorsville, NC and every stop
             on the way to Charlotte.
           </p>
           <p className="font-mono-label text-xs uppercase text-brass">
@@ -86,7 +86,7 @@ export default function Footer() {
       <div className="border-t border-ivory/15">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-5 flex flex-col sm:flex-row justify-between gap-2 text-xs text-ivory/60">
           <p>© {new Date().getFullYear()} L&amp;S Removal Services. All rights reserved.</p>
-          <p>Fireman-owned &amp; operated.</p>
+          <p>Firefighter-owned &amp; operated.</p>
         </div>
       </div>
     </footer>
