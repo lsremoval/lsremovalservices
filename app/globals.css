@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- L&S Removal Services design tokens ---- */
+  --color-navy: #1B2C46;
+  --color-navy-dark: #121e30;
+  --color-ivory: #F4EAD8;
+  --color-ivory-warm: #EFE1C9;
+  --color-ember: #C22A26;
+  --color-ember-dark: #9E211E;
+  --color-charcoal: #24262B;
+  --color-brass: #A9905D;
+
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Libre Franklin", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--color-ember);
+  outline-offset: 3px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+.font-mono-label {
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+}
+
+/* Halftone / stamp texture used sparingly behind hero + dispatch tickets */
+.stamp-texture {
+  background-image: radial-gradient(var(--color-navy) 0.6px, transparent 0.6px);
+  background-size: 10px 10px;
+}
+
+/* Dispatch ticket stub notch */
+.ticket-notch {
+  position: relative;
+}
+.ticket-notch::before,
+.ticket-notch::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: var(--color-ivory);
+  border-radius: 999px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ticket-notch::before { left: -11px; }
+.ticket-notch::after { right: -11px; }
