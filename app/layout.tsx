@@ -39,13 +39,14 @@ export const metadata: Metadata = {
     siteName: business.name,
     locale: "en_US",
     type: "website",
-    images: [{ url: "/images/icon-512.png", width: 512, height: 512 }],
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${business.name} | Fireman-Owned Junk Removal`,
     description:
       "Furniture, appliance, garage, attic, shed & estate cleanouts across Taylorsville, NC to Charlotte.",
+    images: ["/images/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.png",

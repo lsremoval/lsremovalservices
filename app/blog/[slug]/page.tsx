@@ -1,7 +1,7 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import DispatchTicket from "@/components/DispatchTicket";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { blogPosts, getBlogPost } from "@/lib/blog";
 import { business } from "@/lib/business";
 
@@ -61,13 +61,13 @@ export default async function BlogPostPage({
       <section className="bg-navy stamp-texture relative">
         <div className="absolute inset-0 bg-navy/95" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 py-16 sm:py-20">
-          <Link
-            href="/blog"
-            className="font-mono-label text-xs uppercase text-brass hover:text-ivory transition-colors"
-          >
-            ← All Articles
-          </Link>
-          <p className="font-mono-label text-xs uppercase text-brass font-bold mt-5 mb-3">
+          <Breadcrumbs
+            items={[
+              { label: "Blog", href: "/blog" },
+              { label: post.title },
+            ]}
+          />
+          <p className="font-mono-label text-xs uppercase text-brass font-bold mb-3">
             {post.category} &middot; {formatDate(post.date)} &middot;{" "}
             {post.readMinutes} min read
           </p>

@@ -260,6 +260,132 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "questions-to-ask-junk-removal-company",
+    title: "5 Questions to Ask Before You Hire a Junk Removal Company",
+    excerpt:
+      "Not all junk removal companies operate the same way. Here's what to ask before you book, so there are no surprises on pickup day.",
+    category: "Hiring Tips",
+    date: "2026-07-10",
+    readMinutes: 4,
+    body: [
+      {
+        paragraphs: [
+          "Junk removal is a fairly unregulated industry — pricing structures, insurance, and disposal practices vary a lot between companies. A few quick questions before you book can save you from surprise charges or a job that doesn't get finished right.",
+        ],
+      },
+      {
+        heading: "1. Is the price locked in before the truck shows up?",
+        paragraphs: [
+          "Ask whether the quote is a firm price or just an estimate that could change once the crew sees the job. A company that can quote confidently from a photo has done enough of these jobs to price accurately up front.",
+        ],
+      },
+      {
+        heading: "2. What happens to the items after pickup?",
+        paragraphs: [
+          "Responsible companies route usable furniture and goods to donation when possible, rather than sending everything straight to a landfill. It's worth asking directly rather than assuming.",
+        ],
+      },
+      {
+        heading: "3. Are they insured?",
+        paragraphs: [
+          "Moving heavy items through doorways, down stairs, and across floors carries some risk of property damage. A company that carries insurance is protecting you, not just themselves.",
+        ],
+      },
+      {
+        heading: "4. How is the crew reached directly?",
+        paragraphs: [
+          "Some larger franchises route everything through a national call center, which can mean delays getting a straight answer. Ask if you're talking to the actual crew that will show up, or a booking line several layers removed from the work.",
+        ],
+      },
+      {
+        heading: "5. What's their actual availability?",
+        paragraphs: [
+          "If you need something gone this week, ask directly rather than assuming based on a website. Smaller, local operations can often move faster than large franchises juggling a wide service radius.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "storm-cleanup-yard-debris-nc",
+    title: "After the Storm: Handling Yard Debris Cleanup in Western NC",
+    excerpt:
+      "Storms in the Taylorsville and Hickory area can leave a yard buried in limbs and debris fast. Here's how to prioritize the cleanup.",
+    category: "Seasonal",
+    date: "2026-07-11",
+    readMinutes: 4,
+    body: [
+      {
+        paragraphs: [
+          "Storm season in western North Carolina can turn a clean yard into a mess of downed limbs and scattered debris overnight. Knowing how to prioritize the cleanup keeps things manageable instead of overwhelming.",
+        ],
+      },
+      {
+        heading: "Safety first, always",
+        paragraphs: [
+          "Before touching anything, check for downed power lines and structural damage to your home, garage, or any outbuildings. If a limb is resting on a power line or your roof, that's a call to the power company or a professional — not a DIY cleanup task.",
+        ],
+      },
+      {
+        heading: "Clear access points first",
+        paragraphs: [
+          "Prioritize your driveway, walkways, and anywhere you need daily access before worrying about the rest of the yard. This gets your property functional again quickly, even if full cleanup takes a few more days.",
+        ],
+      },
+      {
+        heading: "Don't feel like you need to bundle or bag debris",
+        paragraphs: [
+          "A lot of people assume yard waste has to be cut, bundled, or bagged before it can be hauled off. For a bulk pickup, that's not necessary — we load debris as-is, which saves you hours of prep work after an already stressful storm.",
+        ],
+      },
+      {
+        heading: "Scale the cleanup to the damage",
+        paragraphs: [
+          "A few fallen limbs is a quick single-trip job. Widespread storm damage across a property may need multiple truck runs — either way, get a quote based on the actual scope rather than guessing at cost beforehand.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "downsizing-decluttering-before-a-move",
+    title: "Downsizing Before a Move: What to Let Go Of First",
+    excerpt:
+      "Downsizing to a smaller home is as much a mental process as a physical one. Here's a practical way to start.",
+    category: "Moving",
+    date: "2026-07-12",
+    readMinutes: 5,
+    body: [
+      {
+        paragraphs: [
+          "Downsizing — whether it's moving to a smaller home, a retirement community, or simply simplifying — is one of the harder decluttering projects, because almost everything has some history attached. A practical framework makes it less overwhelming.",
+        ],
+      },
+      {
+        heading: "Start with true duplicates",
+        paragraphs: [
+          "Multiples of the same item — a second couch, extra dining chairs, redundant kitchen tools — are the easiest decisions in the whole process. Clearing duplicates first builds momentum without requiring any emotional weighing.",
+        ],
+      },
+      {
+        heading: "Measure your new space before deciding on furniture",
+        paragraphs: [
+          "It's much easier to decide what furniture is coming with you when you know exactly what will fit. Measure the new space first, then work backward to figure out which pieces make sense — this turns an emotional decision into a practical one.",
+        ],
+      },
+      {
+        heading: "Set aside — don't decide — sentimental items",
+        paragraphs: [
+          "Items with strong sentimental value are the hardest to make quick calls on. Rather than forcing a decision under time pressure, set them in a separate area to revisit once the bulk of the easier decisions are already made.",
+        ],
+      },
+      {
+        heading: "Handle the big stuff in one haul",
+        paragraphs: [
+          "Once you know what's staying, the rest — furniture, appliances, garage and closet contents — can go in a single pickup rather than multiple smaller trips. This is usually the point people call us: after the sorting is done and it's just a matter of getting it out of the house.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {

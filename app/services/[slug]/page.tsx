@@ -1,7 +1,7 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import DispatchTicket from "@/components/DispatchTicket";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { services, getService } from "@/lib/services";
 import { areas } from "@/lib/areas";
 
@@ -45,23 +45,37 @@ export default async function ServicePage({
     description: service.summary,
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: service.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
 
       <section className="bg-navy stamp-texture relative">
         <div className="absolute inset-0 bg-navy/95" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 py-16 sm:py-20">
-          <Link
-            href="/services"
-            className="font-mono-label text-xs uppercase text-brass hover:text-ivory transition-colors"
-          >
-            ← All Services
-          </Link>
-          <p className="font-mono-label text-xs uppercase text-brass font-bold mt-5 mb-3">
+          <Breadcrumbs
+            items={[
+              { label: "Services", href: "/services" },
+              { label: service.name },
+            ]}
+          />
+          <p className="font-mono-label text-xs uppercase text-brass font-bold mb-3">
             Dispatch Code {service.dispatchCode} &middot; {service.eyebrow}
           </p>
           <h1 className="font-display text-ivory text-5xl sm:text-6xl leading-none mb-4">

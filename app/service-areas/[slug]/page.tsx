@@ -1,7 +1,8 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import DispatchTicket from "@/components/DispatchTicket";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Link from "next/link";
 import { areas, getArea } from "@/lib/areas";
 import { services } from "@/lib/services";
 
@@ -54,13 +55,13 @@ export default async function AreaPage({
       <section className="bg-navy stamp-texture relative">
         <div className="absolute inset-0 bg-navy/95" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 py-16 sm:py-20">
-          <Link
-            href="/service-areas"
-            className="font-mono-label text-xs uppercase text-brass hover:text-ivory transition-colors"
-          >
-            ← All Service Areas
-          </Link>
-          <p className="font-mono-label text-xs uppercase text-brass font-bold mt-5 mb-3">
+          <Breadcrumbs
+            items={[
+              { label: "Service Areas", href: "/service-areas" },
+              { label: `${area.city}, NC` },
+            ]}
+          />
+          <p className="font-mono-label text-xs uppercase text-brass font-bold mb-3">
             {area.county} &middot; {area.distanceNote}
           </p>
           <h1 className="font-display text-ivory text-5xl sm:text-6xl leading-none mb-4">
