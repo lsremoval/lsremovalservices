@@ -3,7 +3,6 @@ export type Service = {
   name: string;
   shortName: string;
   eyebrow: string;
-  dispatchCode: string;
   summary: string;
   intro: string[];
   whatWeTake: string[];
@@ -17,7 +16,6 @@ export const services: Service[] = [
     name: "Furniture Removal",
     shortName: "Furniture",
     eyebrow: "Couches, sectionals, bed frames & more",
-    dispatchCode: "10-F1",
     summary:
       "Old couch by the curb going nowhere? We haul off furniture of every size, no matter how many stairs are between it and the truck.",
     intro: [
@@ -47,7 +45,6 @@ export const services: Service[] = [
     name: "Appliance Removal",
     shortName: "Appliances",
     eyebrow: "Fridges, washers, dryers & more",
-    dispatchCode: "10-A2",
     summary:
       "Dead refrigerator, broken washer, old water heater — appliances are heavy and hard to move alone. We load them out and dispose of them the right way.",
     intro: [
@@ -77,7 +74,6 @@ export const services: Service[] = [
     name: "Garage, Attic & Shed Cleanouts",
     shortName: "Garage / Attic / Shed",
     eyebrow: "Years of accumulated stuff, gone in a day",
-    dispatchCode: "10-C3",
     summary:
       "The shed you can't walk into, the attic you're afraid to open, the garage that hasn't fit a car in years — we clear it out top to bottom.",
     intro: [
@@ -107,7 +103,6 @@ export const services: Service[] = [
     name: "Estate & Property Cleanouts",
     shortName: "Estate Cleanouts",
     eyebrow: "Full-property clearouts, handled with care",
-    dispatchCode: "10-E4",
     summary:
       "Clearing a loved one's home, prepping a property for sale, or closing out a rental — we handle whole-property cleanouts start to finish.",
     intro: [
@@ -137,7 +132,6 @@ export const services: Service[] = [
     name: "Yard Debris & Brush Removal",
     shortName: "Yard Debris",
     eyebrow: "Brush, limbs, storm cleanup & more",
-    dispatchCode: "10-Y5",
     summary:
       "Storm knocked down limbs, or you've got a pile of brush and yard waste that's been sitting for a season — we load it up and haul it off.",
     intro: [
@@ -167,7 +161,6 @@ export const services: Service[] = [
     name: "Household Junk & Clutter Removal",
     shortName: "Household Junk",
     eyebrow: "General clutter, closets, basements & more",
-    dispatchCode: "10-H6",
     summary:
       "Not everything fits a category — old boxes, closets full of clutter, a basement that needs a fresh start. If it needs to go, we'll take it.",
     intro: [

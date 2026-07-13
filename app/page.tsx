@@ -21,7 +21,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-16 sm:py-24 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-12 items-center">
           <div>
             <p className="font-mono-label text-xs uppercase text-brass font-bold mb-5">
-              Dispatch Code 10-J1 &middot; Taylorsville, NC to Charlotte
+              Taylorsville, NC to Charlotte
             </p>
             <h1 className="font-display text-ivory leading-[0.92] text-[15vw] sm:text-6xl lg:text-7xl mb-6">
               IF IT NEEDS TO GO,
@@ -29,7 +29,7 @@ export default function Home() {
               <span className="text-ember">WE&rsquo;RE ALREADY EN ROUTE.</span>
             </h1>
             <p className="text-ivory/80 text-lg max-w-xl mb-8 leading-relaxed">
-              Firefighter-owned junk removal for furniture, appliances, garages,
+              Locally owned junk removal for furniture, appliances, garages,
               attics, sheds, and full property cleanouts. Text a photo,
               get a real price, and never lift a finger.
             </p>
@@ -68,7 +68,7 @@ export default function Home() {
       <section className="bg-ivory-warm border-b-2 border-navy/10">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-6 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
-            ["Firefighter-Owned", "Local & accountable"],
+            ["Locally Owned", "Accountable & reliable"],
             ["Same-Day Quotes", "Text a photo, get a price"],
             ["No Forms", "Just call or text"],
             ["Taylorsville → Charlotte", "Full corridor coverage"],
@@ -104,7 +104,7 @@ export default function Home() {
               className="group border-2 border-navy/15 hover:border-ember bg-white/40 rounded-sm p-6 transition-colors"
             >
               <p className="font-mono-label text-[11px] uppercase text-brass font-bold mb-3">
-                {s.dispatchCode}
+                {s.eyebrow}
               </p>
               <h3 className="font-display text-2xl text-navy mb-2 leading-tight group-hover:text-ember transition-colors">
                 {s.name}
@@ -157,7 +157,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FIREMAN-OWNED STORY */}
+      {/* VALUES / WHO'S SHOWING UP */}
       <section className="bg-navy text-ivory">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16 sm:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -165,13 +165,13 @@ export default function Home() {
               Who&rsquo;s Showing Up
             </p>
             <h2 className="font-display text-4xl sm:text-5xl leading-none mb-6">
-              FIREMAN-OWNED. NEIGHBOR-RUN.
+              LOCAL. RELIABLE. NEIGHBOR-RUN.
             </h2>
             <p className="text-ivory/80 leading-relaxed mb-4">
-              L&amp;S Removal Services is owned and operated by a working
-              firefighter — the same discipline, reliability, and respect for
-              people&rsquo;s property that the job demands shows up on every
-              haul.
+              L&amp;S Removal Services is a locally owned crew serving
+              Taylorsville and the surrounding area. One of our founders
+              works as a firefighter, and that same discipline and
+              reliability shows up on every job we run.
             </p>
             <p className="text-ivory/80 leading-relaxed">
               That means showing up when we say we will, treating your home
@@ -180,7 +180,6 @@ export default function Home() {
             </p>
           </div>
           <DispatchTicket
-            code="10-73"
             heading="Talk to a real person"
             subheading="No call centers, no automated forms — just text or call and we'll quote it straight."
           />

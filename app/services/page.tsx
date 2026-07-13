@@ -39,7 +39,7 @@ export default function ServicesPage() {
               className="group border-2 border-navy/15 hover:border-ember bg-white/40 rounded-sm p-7 transition-colors"
             >
               <p className="font-mono-label text-[11px] uppercase text-brass font-bold mb-3">
-                {s.dispatchCode} &middot; {s.eyebrow}
+                {s.eyebrow}
               </p>
               <h2 className="font-display text-3xl text-navy mb-3 leading-tight group-hover:text-ember transition-colors">
                 {s.name}

@@ -76,7 +76,7 @@ export default async function ServicePage({
             ]}
           />
           <p className="font-mono-label text-xs uppercase text-brass font-bold mb-3">
-            Dispatch Code {service.dispatchCode} &middot; {service.eyebrow}
+            {service.eyebrow}
           </p>
           <h1 className="font-display text-ivory text-5xl sm:text-6xl leading-none mb-4">
             {service.name.toUpperCase()}
@@ -144,7 +144,6 @@ export default async function ServicePage({
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28">
         <DispatchTicket
-          code={service.dispatchCode}
           heading={`Get a ${service.shortName} Quote`}
           subheading="Text a photo of what needs to go and we'll send back a real price, fast."
         />

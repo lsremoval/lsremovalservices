@@ -17,11 +17,11 @@ import { reviews } from "@/lib/reviews";
 export const metadata: Metadata = {
   metadataBase: new URL(business.url),
   title: {
-    default: `${business.name} | Firefighter-Owned Junk Removal in Taylorsville, NC`,
+    default: `${business.name} | Junk Removal in Taylorsville, NC`,
     template: `%s | ${business.name}`,
   },
   description:
-    "Firefighter-owned junk removal serving Taylorsville, NC to Charlotte. Furniture, appliance, garage, attic, shed & estate cleanouts. Text a photo for a same-day quote.",
+    "Locally owned junk removal serving Taylorsville, NC to Charlotte. Furniture, appliance, garage, attic, shed & estate cleanouts. Text a photo for a same-day quote.",
   keywords: [
     "junk removal Taylorsville NC",
     "junk removal near me",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "junk removal Hickory NC",
   ],
   openGraph: {
-    title: `${business.name} | Firefighter-Owned Junk Removal`,
+    title: `${business.name} | Junk Removal, Taylorsville to Charlotte`,
     description:
       "Furniture, appliance, garage, attic, shed & estate cleanouts across Taylorsville, NC to Charlotte. Text a photo for a same-day quote.",
     url: business.url,
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${business.name} | Firefighter-Owned Junk Removal`,
+    title: `${business.name} | Junk Removal, Taylorsville to Charlotte`,
     description:
       "Furniture, appliance, garage, attic, shed & estate cleanouts across Taylorsville, NC to Charlotte.",
     images: ["/images/og-image.jpg"],

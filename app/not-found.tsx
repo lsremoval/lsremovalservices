@@ -8,7 +8,7 @@ export default function NotFound() {
         <div className="absolute inset-0 bg-navy/95" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 py-20 sm:py-28 text-center">
           <p className="font-mono-label text-xs uppercase text-brass font-bold mb-3">
-            Dispatch Code 404
+            Page Not Found
           </p>
           <h1 className="font-display text-ivory text-6xl sm:text-7xl leading-none mb-5">
             NOTHING HERE TO HAUL

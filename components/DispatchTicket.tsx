@@ -1,11 +1,9 @@
 import { telHref, smsHref, business } from "@/lib/business";
 
 export default function DispatchTicket({
-  code = "10-4",
   heading = "Ready when you are",
   subheading = "Text a photo of what needs to go — most jobs get a real quote back same day.",
 }: {
-  code?: string;
   heading?: string;
   subheading?: string;
 }) {
@@ -14,7 +12,7 @@ export default function DispatchTicket({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
         <div>
           <p className="font-mono-label text-xs uppercase text-ember font-bold mb-2">
-            Dispatch Ticket · Code {code}
+            Get A Quote
           </p>
           <h3 className="font-display text-3xl sm:text-4xl text-navy leading-none mb-2">
             {heading}
