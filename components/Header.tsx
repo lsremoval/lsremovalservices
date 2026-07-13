@@ -27,7 +27,6 @@ export default function Header() {
               width={56}
               height={56}
               className="rounded-full"
-              priority
             />
             <span className="font-display text-2xl tracking-wide text-navy hidden sm:block">
               L&amp;S REMOVAL SERVICES

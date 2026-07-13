@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className="font-display text-ivory leading-[0.92] text-[15vw] sm:text-6xl lg:text-7xl mb-6">
               IF IT NEEDS TO GO,
               <br />
-              <span className="text-ember">WE&rsquo;RE ALREADY EN ROUTE.</span>
+              <span className="text-ember-glow">WE&rsquo;RE ALREADY EN ROUTE.</span>
             </h1>
             <p className="text-ivory/80 text-lg max-w-xl mb-8 leading-relaxed">
               Locally owned junk removal for furniture, appliances, garages,
@@ -57,6 +57,7 @@ export default function Home() {
                 width={340}
                 height={340}
                 priority
+                sizes="(max-width: 640px) 224px, (max-width: 1024px) 288px, 320px"
                 className="w-56 sm:w-72 lg:w-80 h-auto"
               />
             </div>

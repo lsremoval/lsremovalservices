@@ -29,7 +29,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             {services.map((s) => (
               <li key={s.slug}>
-                <Link href={`/services/${s.slug}`} className="hover:text-ember transition-colors">
+                <Link href={`/services/${s.slug}`} className="hover:text-ember-glow transition-colors">
                   {s.shortName}
                 </Link>
               </li>
@@ -44,13 +44,13 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             {areas.slice(0, 6).map((a) => (
               <li key={a.slug}>
-                <Link href={`/service-areas/${a.slug}`} className="hover:text-ember transition-colors">
+                <Link href={`/service-areas/${a.slug}`} className="hover:text-ember-glow transition-colors">
                   {a.city}, NC
                 </Link>
               </li>
             ))}
             <li>
-              <Link href="/service-areas" className="hover:text-ember transition-colors font-semibold">
+              <Link href="/service-areas" className="hover:text-ember-glow transition-colors font-semibold">
                 View All Areas →
               </Link>
             </li>
@@ -63,17 +63,17 @@ export default function Footer() {
           </p>
           <ul className="space-y-3 text-sm">
             <li>
-              <Link href="/blog" className="hover:text-ember transition-colors">
+              <Link href="/blog" className="hover:text-ember-glow transition-colors">
                 Tips &amp; Guides
               </Link>
             </li>
             <li>
-              <a href={telHref} className="hover:text-ember transition-colors">
+              <a href={telHref} className="hover:text-ember-glow transition-colors">
                 {business.phone}
               </a>
             </li>
             <li>
-              <a href={mailHref} className="hover:text-ember transition-colors break-all">
+              <a href={mailHref} className="hover:text-ember-glow transition-colors break-all">
                 {business.email}
               </a>
             </li>
