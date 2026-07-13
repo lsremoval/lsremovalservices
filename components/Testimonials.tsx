@@ -2,7 +2,11 @@ import { reviews } from "@/lib/reviews";
 
 function Stars({ rating }: { rating: number }) {
   return (
-    <div className="flex gap-0.5 text-ember" aria-label={`${rating} out of 5 stars`}>
+    <div
+      role="img"
+      aria-label={`${rating} out of 5 stars`}
+      className="flex gap-0.5 text-ember"
+    >
       {Array.from({ length: 5 }).map((_, i) => (
         <svg
           key={i}
@@ -12,6 +16,7 @@ function Stars({ rating }: { rating: number }) {
           strokeWidth={i < rating ? 0 : 1.5}
           className="w-4 h-4"
           aria-hidden="true"
+          focusable="false"
         >
           <path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.1-5.4 3.1 1.3-6-4.6-4.1 6.1-.6L10 1.5z" />
         </svg>
