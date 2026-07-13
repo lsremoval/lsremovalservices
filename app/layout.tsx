@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -7,6 +8,7 @@ import MobileCTABar from "@/components/MobileCTABar";
 import { business } from "@/lib/business";
 import { areas } from "@/lib/areas";
 import { reviews } from "@/lib/reviews";
+import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 
 const bebasNeue = localFont({
   src: "./fonts/bebas-neue-400.ttf",
@@ -130,6 +132,18 @@ export default function RootLayout({
       className={`${bebasNeue.variable} ${libreFranklin.variable} ${spaceMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
