@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import "@fontsource/bebas-neue/400.css";
-import "@fontsource/libre-franklin/400.css";
-import "@fontsource/libre-franklin/500.css";
-import "@fontsource/libre-franklin/600.css";
-import "@fontsource/libre-franklin/700.css";
-import "@fontsource/space-mono/400.css";
-import "@fontsource/space-mono/700.css";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -13,6 +7,33 @@ import MobileCTABar from "@/components/MobileCTABar";
 import { business } from "@/lib/business";
 import { areas } from "@/lib/areas";
 import { reviews } from "@/lib/reviews";
+
+const bebasNeue = localFont({
+  src: "./fonts/bebas-neue-400.ttf",
+  variable: "--font-bebas",
+  display: "swap",
+});
+
+const libreFranklin = localFont({
+  src: [
+    { path: "./fonts/libre-franklin-400.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/libre-franklin-500.ttf", weight: "500", style: "normal" },
+    { path: "./fonts/libre-franklin-600.ttf", weight: "600", style: "normal" },
+    { path: "./fonts/libre-franklin-700.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-franklin",
+  display: "swap",
+});
+
+const spaceMono = localFont({
+  src: [
+    { path: "./fonts/space-mono-400.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/space-mono-700.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-space-mono",
+  display: "swap",
+});
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(business.url),
@@ -104,7 +125,10 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="h-full antialiased">
+    <html
+      lang="en"
+      className={`${bebasNeue.variable} ${libreFranklin.variable} ${spaceMono.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">
         <script
           type="application/ld+json"
