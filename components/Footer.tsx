@@ -2,6 +2,7 @@ import Link from "next/link";
 import { business, telHref, mailHref } from "@/lib/business";
 import { services } from "@/lib/services";
 import { areas } from "@/lib/areas";
+import ContactLink from "@/components/ContactLink";
 
 export default function Footer() {
   return (
@@ -68,14 +69,24 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <a href={telHref} className="hover:text-ember-glow transition-colors">
+              <ContactLink
+                href={telHref}
+                method="call"
+                location="footer"
+                className="hover:text-ember-glow transition-colors"
+              >
                 {business.phone}
-              </a>
+              </ContactLink>
             </li>
             <li>
-              <a href={mailHref} className="hover:text-ember-glow transition-colors break-all">
+              <ContactLink
+                href={mailHref}
+                method="email"
+                location="footer"
+                className="hover:text-ember-glow transition-colors break-all"
+              >
                 {business.email}
-              </a>
+              </ContactLink>
             </li>
             <li className="text-ivory/70">
               Taylorsville, NC &amp; surrounding area

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { business, telHref, smsHref } from "@/lib/business";
+import { trackContactClick } from "@/lib/analytics";
 
 const navLinks = [
   { href: "/services", label: "Services" },
@@ -44,12 +45,14 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <a
               href={smsHref}
+              onClick={() => trackContactClick("text", "header_desktop")}
               className="hidden sm:inline-flex items-center gap-2 rounded-sm border-2 border-navy px-4 py-2 font-mono-label text-xs font-bold uppercase text-navy hover:bg-navy hover:text-ivory transition-colors"
             >
               Text Us
             </a>
             <a
               href={telHref}
+              onClick={() => trackContactClick("call", "header_desktop")}
               className="hidden sm:inline-flex items-center gap-2 rounded-sm bg-ember px-4 py-2 font-mono-label text-xs font-bold uppercase text-ivory hover:bg-ember-dark transition-colors"
             >
               {business.phone}
@@ -106,12 +109,14 @@ export default function Header() {
           <li className="flex sm:hidden">
             <a
               href={smsHref}
+              onClick={() => trackContactClick("text", "header_mobile_nav")}
               className="flex-1 text-center px-4 py-4 font-mono-label text-xs font-bold uppercase text-navy border-r border-navy/10"
             >
               Text Us
             </a>
             <a
               href={telHref}
+              onClick={() => trackContactClick("call", "header_mobile_nav")}
               className="flex-1 text-center px-4 py-4 font-mono-label text-xs font-bold uppercase text-ivory bg-ember"
             >
               Call {business.phone}

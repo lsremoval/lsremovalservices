@@ -108,6 +108,7 @@ export default async function BlogPostPage({
         <DispatchTicket
           heading="Have a job like this?"
           subheading="Text a photo of what needs to go. We'll quote it fast."
+          location={`blog_post_${post.slug}`}
         />
       </section>
     </>

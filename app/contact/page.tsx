@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { business, telHref, smsHref, mailHref } from "@/lib/business";
+import ContactLink from "@/components/ContactLink";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -29,8 +30,10 @@ export default function ContactPage() {
 
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-16 sm:py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16">
-          <a
+          <ContactLink
             href={smsHref}
+            method="text"
+            location="contact_page"
             className="border-2 border-navy rounded-sm p-8 hover:bg-navy hover:text-ivory transition-colors group"
           >
             <p className="font-mono-label text-xs uppercase text-ember font-bold mb-3">
@@ -44,10 +47,12 @@ export default function ContactPage() {
               {" "}
               <span className="font-mono-label">{business.phone}</span>
             </p>
-          </a>
+          </ContactLink>
 
-          <a
+          <ContactLink
             href={telHref}
+            method="call"
+            location="contact_page"
             className="border-2 border-ember bg-ember text-ivory rounded-sm p-8 hover:bg-ember-dark transition-colors"
           >
             <p className="font-mono-label text-xs uppercase text-ivory/80 font-bold mb-3">
@@ -57,7 +62,7 @@ export default function ContactPage() {
             <p className="text-sm text-ivory/90 font-mono-label">
               {business.phone}
             </p>
-          </a>
+          </ContactLink>
         </div>
 
         <div className="border-t border-navy/10 pt-10 grid grid-cols-1 sm:grid-cols-3 gap-8">
@@ -65,9 +70,14 @@ export default function ContactPage() {
             <p className="font-mono-label text-xs uppercase text-brass font-bold mb-2">
               Email
             </p>
-            <a href={mailHref} className="text-navy hover:text-ember break-all">
+            <ContactLink
+              href={mailHref}
+              method="email"
+              location="contact_page"
+              className="text-navy hover:text-ember break-all"
+            >
               {business.email}
-            </a>
+            </ContactLink>
           </div>
           <div>
             <p className="font-mono-label text-xs uppercase text-brass font-bold mb-2">

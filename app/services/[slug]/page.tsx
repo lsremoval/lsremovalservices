@@ -146,6 +146,7 @@ export default async function ServicePage({
         <DispatchTicket
           heading={`Get a ${service.shortName} Quote`}
           subheading="Text a photo of what needs to go and we'll send back a real price, fast."
+          location={`service_page_${service.slug}`}
         />
       </section>
     </>

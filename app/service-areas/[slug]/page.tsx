@@ -95,6 +95,7 @@ export default async function AreaPage({
         <DispatchTicket
           heading={`Serving ${area.city}, NC`}
           subheading="Text a photo of what needs to go and we'll send back a real price, fast."
+          location={`area_page_${area.slug}`}
         />
       </section>
     </>

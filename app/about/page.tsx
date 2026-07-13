@@ -70,7 +70,7 @@ export default function AboutPage() {
       <Testimonials />
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28">
-        <DispatchTicket />
+        <DispatchTicket location="about_page_footer" />
       </section>
     </>
   );

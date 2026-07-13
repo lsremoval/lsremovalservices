@@ -56,7 +56,7 @@ export default function ServicesPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28">
-        <DispatchTicket />
+        <DispatchTicket location="services_index_footer" />
       </section>
     </>
   );

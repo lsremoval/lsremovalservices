@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import DispatchTicket from "@/components/DispatchTicket";
 import Testimonials from "@/components/Testimonials";
+import ContactLink from "@/components/ContactLink";
 import { services } from "@/lib/services";
 import { areas } from "@/lib/areas";
 import { business, telHref, smsHref } from "@/lib/business";
@@ -34,18 +35,22 @@ export default function Home() {
               get a real price, and never lift a finger.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a
+              <ContactLink
                 href={smsHref}
+                method="text"
+                location="homepage_hero"
                 className="inline-flex items-center justify-center rounded-sm border-2 border-ivory px-7 py-4 font-mono-label text-sm font-bold uppercase text-ivory hover:bg-ivory hover:text-navy transition-colors"
               >
                 Text a Photo, Get a Quote
-              </a>
-              <a
+              </ContactLink>
+              <ContactLink
                 href={telHref}
+                method="call"
+                location="homepage_hero"
                 className="inline-flex items-center justify-center rounded-sm bg-ember px-7 py-4 font-mono-label text-sm font-bold uppercase text-ivory hover:bg-ember-dark transition-colors"
               >
                 Call {business.phone}
-              </a>
+              </ContactLink>
             </div>
           </div>
 
@@ -183,6 +188,7 @@ export default function Home() {
           <DispatchTicket
             heading="Talk to a real person"
             subheading="No call centers, no automated forms. Just text or call and we'll quote it straight."
+            location="homepage_values_section"
           />
         </div>
       </section>
@@ -223,7 +229,7 @@ export default function Home() {
 
       {/* FINAL CTA */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28">
-        <DispatchTicket />
+        <DispatchTicket location="homepage_final_cta" />
       </section>
     </>
   );
