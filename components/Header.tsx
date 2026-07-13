@@ -56,7 +56,7 @@ export default function Header() {
               {business.phone}
             </a>
 
-            {/* Hamburger — mobile/tablet only */}
+            {/* Hamburger, mobile/tablet only */}
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}

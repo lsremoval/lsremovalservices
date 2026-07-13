@@ -13,22 +13,22 @@ export const blogPosts: BlogPost[] = [
     slug: "how-much-does-junk-removal-cost-nc",
     title: "How Much Does Junk Removal Cost in North Carolina?",
     excerpt:
-      "A straightforward breakdown of what drives junk removal pricing — volume, item type, and access — so you know what to expect before you call.",
+      "A straightforward breakdown of what drives junk removal pricing: volume, item type, and access, so you know what to expect before you call.",
     category: "Pricing",
     date: "2026-06-02",
     readMinutes: 5,
     body: [
       {
         paragraphs: [
-          "Junk removal pricing usually comes down to three things: how much space your items take up in the truck, what kind of items they are, and how hard they are to get to. Most companies, us included, quote based on volume rather than a flat per-item fee — a single couch costs less than a quarter-truckload of mixed household junk.",
+          "Junk removal pricing usually comes down to three things: how much space your items take up in the truck, what kind of items they are, and how hard they are to get to. Most companies, us included, quote based on volume rather than a flat per-item fee. A single couch costs less than a quarter-truckload of mixed household junk.",
         ],
       },
       {
         heading: "What actually drives the price",
         paragraphs: [
-          "Volume is the biggest factor. We quote based on roughly how much of the truck bed your items will fill — a single item, a quarter load, a half load, or a full load. The more space something takes, the more it costs to haul and dispose of responsibly.",
+          "Volume is the biggest factor. We quote based on roughly how much of the truck bed your items will fill: a single item, a quarter load, a half load, or a full load. The more space something takes, the more it costs to haul and dispose of responsibly.",
           "Item type matters too. Appliances with refrigerants, mattresses, and anything requiring special disposal handling can carry a small additional cost beyond straight volume, since disposal fees for those items are higher than general household waste.",
-          "Access affects labor time. A couch sitting in a driveway is a five-minute job. The same couch three flights up in a walk-up apartment takes longer and requires more manpower — that gets reflected in the quote.",
+          "Access affects labor time. A couch sitting in a driveway is a five-minute job. The same couch three flights up in a walk-up apartment takes longer and requires more manpower, and that gets reflected in the quote.",
         ],
       },
       {
@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "What's typically included",
         paragraphs: [
-          "Our quotes include the labor to load everything, hauling, and responsible disposal — including routing usable items to local donation centers when possible. There's no separate 'loading fee' or surprise line item added after the truck is full.",
+          "Our quotes include the labor to load everything, hauling, and responsible disposal, including routing usable items to local donation centers when possible. There's no separate 'loading fee' or surprise line item added after the truck is full.",
         ],
       },
     ],
@@ -56,13 +56,13 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Estate cleanouts are rarely just a hauling job — they're an emotional process with a practical deadline attached, whether that's a closing date, a lease turnover, or simply wanting to move forward. Having a clear order of operations makes the physical part easier to manage.",
+          "Estate cleanouts are rarely just a hauling job. They're an emotional process with a practical deadline attached, whether that's a closing date, a lease turnover, or simply wanting to move forward. Having a clear order of operations makes the physical part easier to manage.",
         ],
       },
       {
         heading: "1. Separate before you sort",
         paragraphs: [
-          "Before diving into every drawer, do a first pass to separate items into three broad buckets: keep (family items, documents, anything of sentimental or financial value), sell or donate, and haul. You don't need to make every decision immediately — just get things into the right room or area.",
+          "Before diving into every drawer, do a first pass to separate items into three broad buckets: keep (family items, documents, anything of sentimental or financial value), sell or donate, and haul. You don't need to make every decision immediately, just get things into the right room or area.",
         ],
       },
       {
@@ -74,14 +74,14 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "3. Decide what's worth an estate sale",
         paragraphs: [
-          "If there's enough furniture or valuable items to justify an estate sale or auction, that typically needs to happen before a full cleanout — sale companies usually want the property untouched until their event is done. If you're not doing a sale, this step can be skipped entirely.",
+          "If there's enough furniture or valuable items to justify an estate sale or auction, that typically needs to happen before a full cleanout. Sale companies usually want the property untouched until their event is done. If you're not doing a sale, this step can be skipped entirely.",
         ],
       },
       {
         heading: "4. Schedule the full cleanout",
         paragraphs: [
-          "Once keep and sale items are out, the rest — furniture, appliances, garage and attic contents, general household items — can be cleared in a single visit. We walk the property, quote the full scope, and clear it top to bottom, including outbuildings if needed.",
-          "If you're coordinating around a closing date or realtor showing, let us know up front — we regularly work around those deadlines.",
+          "Once keep and sale items are out, the rest (furniture, appliances, garage and attic contents, general household items) can be cleared in a single visit. We walk the property, quote the full scope, and clear it top to bottom, including outbuildings if needed.",
+          "If you're coordinating around a closing date or realtor showing, let us know up front. We regularly work around those deadlines.",
         ],
       },
       {
@@ -103,13 +103,13 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Garages have a way of becoming the default storage for everything without an obvious home — until one day there's a narrow walking path and no room for the car. Here's how to approach getting it back under control without it turning into an all-weekend project.",
+          "Garages have a way of becoming the default storage for everything without an obvious home, until one day there's a narrow walking path and no room for the car. Here's how to approach getting it back under control without it turning into an all-weekend project.",
         ],
       },
       {
         heading: "1. Work in zones, not the whole room at once",
         paragraphs: [
-          "Trying to sort the entire garage in one pass is overwhelming and usually stalls out. Break it into zones — one wall, one shelving unit, one corner — and finish each zone before moving to the next.",
+          "Trying to sort the entire garage in one pass is overwhelming and usually stalls out. Break it into zones (one wall, one shelving unit, one corner) and finish each zone before moving to the next.",
         ],
       },
       {
@@ -127,13 +127,13 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "4. Don't sort everything before calling for a haul",
         paragraphs: [
-          "You don't need the whole garage perfectly organized before scheduling a cleanout — most people just need the 'definitely going' pile removed to actually see what they're working with. We can clear a first pass, and you can handle finer organizing once there's breathing room.",
+          "You don't need the whole garage perfectly organized before scheduling a cleanout. Most people just need the 'definitely going' pile removed to actually see what they're working with. We can clear a first pass, and you can handle finer organizing once there's breathing room.",
         ],
       },
       {
         heading: "5. Think vertical once it's cleared",
         paragraphs: [
-          "Once the floor is clear, wall-mounted shelving or a slat-wall system keeps things from creeping back into chaos — it's much easier to maintain an organized garage than to reclaim one from scratch a second time.",
+          "Once the floor is clear, wall-mounted shelving or a slat-wall system keeps things from creeping back into chaos. It's much easier to maintain an organized garage than to reclaim one from scratch a second time.",
         ],
       },
     ],
@@ -142,14 +142,14 @@ export const blogPosts: BlogPost[] = [
     slug: "what-can-be-donated-vs-junk",
     title: "What Can Be Donated vs. What Just Needs to Go",
     excerpt:
-      "A quick, honest guide to what local charities can actually use — and what's better off going straight to disposal.",
+      "A quick, honest guide to what local charities can actually use, and what's better off going straight to disposal.",
     category: "Donation & Disposal",
     date: "2026-06-25",
     readMinutes: 4,
     body: [
       {
         paragraphs: [
-          "One of the most common questions we get is whether something can be donated instead of hauled to disposal. Local donation centers are genuinely helpful for a lot of household items — but they also have real limits on what they can accept, and knowing the difference saves everyone time.",
+          "One of the most common questions we get is whether something can be donated instead of hauled to disposal. Local donation centers are genuinely helpful for a lot of household items, but they also have real limits on what they can accept, and knowing the difference saves everyone time.",
         ],
       },
       {
@@ -175,7 +175,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Where we come in",
         paragraphs: [
-          "When we haul a job, we route anything in donatable condition to local charities rather than defaulting straight to disposal — it costs you nothing extra and keeps usable items out of a landfill. Items that don't meet donation standards are disposed of responsibly instead.",
+          "When we haul a job, we route anything in donatable condition to local charities rather than defaulting straight to disposal. It costs you nothing extra and keeps usable items out of a landfill. Items that don't meet donation standards are disposed of responsibly instead.",
         ],
       },
     ],
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Spring cleaning tends to get put off because it feels like an all-or-nothing project. Breaking it into a room-by-room plan over a couple of weekends makes it far more likely to actually get done — and gives you a natural point to schedule a junk pickup for whatever you're clearing out.",
+          "Spring cleaning tends to get put off because it feels like an all-or-nothing project. Breaking it into a room-by-room plan over a couple of weekends makes it far more likely to actually get done, and gives you a natural point to schedule a junk pickup for whatever you're clearing out.",
         ],
       },
       {
@@ -203,19 +203,19 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Garage and shed next",
         paragraphs: [
-          "These spaces tend to accumulate the most over a full year — lawn equipment, holiday decorations, half-finished projects. Clearing them in spring, before yard work season ramps up, means your tools and equipment are actually accessible when you need them.",
+          "These spaces tend to accumulate the most over a full year: lawn equipment, holiday decorations, half-finished projects. Clearing them in spring, before yard work season ramps up, means your tools and equipment are actually accessible when you need them.",
         ],
       },
       {
         heading: "Then move room by room indoors",
         paragraphs: [
-          "Closets, spare rooms, and basements are natural places for clutter to collect over winter. Tackle one room per weekend rather than trying to do the whole house at once — it's far more sustainable and less likely to stall out halfway through.",
+          "Closets, spare rooms, and basements are natural places for clutter to collect over winter. Tackle one room per weekend rather than trying to do the whole house at once. It's far more sustainable and less likely to stall out halfway through.",
         ],
       },
       {
         heading: "Schedule the haul-away last",
         paragraphs: [
-          "Once you've got a pile — whether it's from the yard, garage, or inside the house — that's the point to text us a photo. Most homeowners in Taylorsville and Hickory end up combining yard debris, garage items, and household clutter into a single pickup, which is more efficient than separate trips for each.",
+          "Once you've got a pile, whether it's from the yard, garage, or inside the house, that's the point to text us a photo. Most homeowners in Taylorsville and Hickory end up combining yard debris, garage items, and household clutter into a single pickup, which is more efficient than separate trips for each.",
         ],
       },
     ],
@@ -231,19 +231,19 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Moving day has a way of clarifying exactly what's actually worth the cost and hassle of moving — and what's better off left behind. If you're facing a move-out deadline with furniture that isn't making the trip, here's how to handle it without scrambling at the last minute.",
+          "Moving day has a way of clarifying exactly what's actually worth the cost and hassle of moving, and what's better off left behind. If you're facing a move-out deadline with furniture that isn't making the trip, here's how to handle it without scrambling at the last minute.",
         ],
       },
       {
         heading: "Decide early, not on move-out day",
         paragraphs: [
-          "The biggest mistake is leaving this decision until the moving truck is already loaded. Walk through the home a few days before your move and flag anything that's staying — this gives you time to schedule a pickup instead of leaving it curbside and hoping for the best.",
+          "The biggest mistake is leaving this decision until the moving truck is already loaded. Walk through the home a few days before your move and flag anything that's staying. This gives you time to schedule a pickup instead of leaving it curbside and hoping for the best.",
         ],
       },
       {
         heading: "Check your lease or closing terms",
         paragraphs: [
-          "Rental leases and home sale agreements often require the property to be left empty and broom-clean. Leaving furniture behind without arranging removal can result in charges from a landlord or delay a closing — worth confirming this before your move-out date.",
+          "Rental leases and home sale agreements often require the property to be left empty and broom-clean. Leaving furniture behind without arranging removal can result in charges from a landlord or delay a closing, so it's worth confirming this before your move-out date.",
         ],
       },
       {
@@ -271,7 +271,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Junk removal is a fairly unregulated industry — pricing structures, insurance, and disposal practices vary a lot between companies. A few quick questions before you book can save you from surprise charges or a job that doesn't get finished right.",
+          "Junk removal is a fairly unregulated industry, and pricing structures, insurance, and disposal practices vary a lot between companies. A few quick questions before you book can save you from surprise charges or a job that doesn't get finished right.",
         ],
       },
       {
@@ -323,7 +323,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Safety first, always",
         paragraphs: [
-          "Before touching anything, check for downed power lines and structural damage to your home, garage, or any outbuildings. If a limb is resting on a power line or your roof, that's a call to the power company or a professional — not a DIY cleanup task.",
+          "Before touching anything, check for downed power lines and structural damage to your home, garage, or any outbuildings. If a limb is resting on a power line or your roof, that's a call to the power company or a professional, not a DIY cleanup task.",
         ],
       },
       {
@@ -335,13 +335,13 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Don't feel like you need to bundle or bag debris",
         paragraphs: [
-          "A lot of people assume yard waste has to be cut, bundled, or bagged before it can be hauled off. For a bulk pickup, that's not necessary — we load debris as-is, which saves you hours of prep work after an already stressful storm.",
+          "A lot of people assume yard waste has to be cut, bundled, or bagged before it can be hauled off. For a bulk pickup, that's not necessary. We load debris as-is, which saves you hours of prep work after an already stressful storm.",
         ],
       },
       {
         heading: "Scale the cleanup to the damage",
         paragraphs: [
-          "A few fallen limbs is a quick single-trip job. Widespread storm damage across a property may need multiple truck runs — either way, get a quote based on the actual scope rather than guessing at cost beforehand.",
+          "A few fallen limbs is a quick single-trip job. Widespread storm damage across a property may need multiple truck runs. Either way, get a quote based on the actual scope rather than guessing at cost beforehand.",
         ],
       },
     ],
@@ -357,23 +357,23 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Downsizing — whether it's moving to a smaller home, a retirement community, or simply simplifying — is one of the harder decluttering projects, because almost everything has some history attached. A practical framework makes it less overwhelming.",
+          "Downsizing, whether it's moving to a smaller home, a retirement community, or simply simplifying, is one of the harder decluttering projects, because almost everything has some history attached. A practical framework makes it less overwhelming.",
         ],
       },
       {
         heading: "Start with true duplicates",
         paragraphs: [
-          "Multiples of the same item — a second couch, extra dining chairs, redundant kitchen tools — are the easiest decisions in the whole process. Clearing duplicates first builds momentum without requiring any emotional weighing.",
+          "Multiples of the same item (a second couch, extra dining chairs, redundant kitchen tools) are the easiest decisions in the whole process. Clearing duplicates first builds momentum without requiring any emotional weighing.",
         ],
       },
       {
         heading: "Measure your new space before deciding on furniture",
         paragraphs: [
-          "It's much easier to decide what furniture is coming with you when you know exactly what will fit. Measure the new space first, then work backward to figure out which pieces make sense — this turns an emotional decision into a practical one.",
+          "It's much easier to decide what furniture is coming with you when you know exactly what will fit. Measure the new space first, then work backward to figure out which pieces make sense. This turns an emotional decision into a practical one.",
         ],
       },
       {
-        heading: "Set aside — don't decide — sentimental items",
+        heading: "Set aside, don't decide on, sentimental items",
         paragraphs: [
           "Items with strong sentimental value are the hardest to make quick calls on. Rather than forcing a decision under time pressure, set them in a separate area to revisit once the bulk of the easier decisions are already made.",
         ],
@@ -381,7 +381,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Handle the big stuff in one haul",
         paragraphs: [
-          "Once you know what's staying, the rest — furniture, appliances, garage and closet contents — can go in a single pickup rather than multiple smaller trips. This is usually the point people call us: after the sorting is done and it's just a matter of getting it out of the house.",
+          "Once you know what's staying, the rest (furniture, appliances, garage and closet contents) can go in a single pickup rather than multiple smaller trips. This is usually the point people call us: after the sorting is done and it's just a matter of getting it out of the house.",
         ],
       },
     ],

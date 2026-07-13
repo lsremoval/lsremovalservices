@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Junk Removal Tips & Guides",
   description:
-    "Practical guides on junk removal costs, estate cleanouts, garage organization, and donation vs. disposal — from L&S Removal Services in Taylorsville, NC.",
+    "Practical guides on junk removal costs, estate cleanouts, garage organization, and donation vs. disposal, from L&S Removal Services in Taylorsville, NC.",
   alternates: { canonical: "/blog" },
 };
 
@@ -36,7 +36,7 @@ export default function BlogIndexPage() {
           </h1>
           <p className="text-ivory/80 max-w-xl">
             Practical, no-nonsense advice on cleanouts, pricing, and getting a
-            space back under control — from a crew that does this every day.
+            space back under control, from a crew that does this every day.
           </p>
         </div>
       </section>

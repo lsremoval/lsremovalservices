@@ -23,7 +23,7 @@ export default function ServicesPage() {
             WHAT WE HAUL
           </h1>
           <p className="text-ivory/80 max-w-xl">
-            From a single couch to a full property cleanout — here&rsquo;s
+            From a single couch to a full property cleanout, here&rsquo;s
             everything L&amp;S Removal Services handles across Taylorsville
             and the Charlotte corridor.
           </p>

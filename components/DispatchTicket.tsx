@@ -2,7 +2,7 @@ import { telHref, smsHref, business } from "@/lib/business";
 
 export default function DispatchTicket({
   heading = "Ready when you are",
-  subheading = "Text a photo of what needs to go — most jobs get a real quote back same day.",
+  subheading = "Text a photo of what needs to go. Most jobs get a real quote back same day.",
 }: {
   heading?: string;
   subheading?: string;

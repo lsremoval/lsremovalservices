@@ -14,7 +14,7 @@ export default function NotFound() {
             NOTHING HERE TO HAUL
           </h1>
           <p className="text-ivory/80 max-w-lg mx-auto mb-8">
-            That page doesn&rsquo;t exist — but if there&rsquo;s something at
+            That page doesn&rsquo;t exist, but if there&rsquo;s something at
             your place that does, we can still help with that.
           </p>
           <Link

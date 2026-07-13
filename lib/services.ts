@@ -19,7 +19,7 @@ export const services: Service[] = [
     summary:
       "Old couch by the curb going nowhere? We haul off furniture of every size, no matter how many stairs are between it and the truck.",
     intro: [
-      "Furniture is heavy, awkward, and rarely fits in a regular trash pickup — which is exactly why it tends to sit in a garage or spare room for months. Our crew shows up with the manpower and the truck to take it in one trip.",
+      "Furniture is heavy, awkward, and rarely fits in a regular trash pickup. That's exactly why it tends to sit in a garage or spare room for months. Our crew shows up with the manpower and the truck to take it in one trip.",
       "Whether it's a single recliner or you're clearing out an entire living room, we carry it out ourselves. You don't lift a finger.",
     ],
     whatWeTake: [
@@ -31,7 +31,7 @@ export const services: Service[] = [
       "Bookshelves & entertainment centers",
     ],
     process: [
-      { title: "Text or call for a quote", detail: "Send a photo and your address — we'll give you a real price before we ever load the truck." },
+      { title: "Text or call for a quote", detail: "Send a photo and your address. We'll give you a real price before we ever load the truck." },
       { title: "We show up and load it", detail: "Our crew handles the carrying, the stairs, and the tight doorways." },
       { title: "We haul it away", detail: "Donatable pieces go to local charities when possible; the rest is disposed of responsibly." },
     ],
@@ -46,9 +46,9 @@ export const services: Service[] = [
     shortName: "Appliances",
     eyebrow: "Fridges, washers, dryers & more",
     summary:
-      "Dead refrigerator, broken washer, old water heater — appliances are heavy and hard to move alone. We load them out and dispose of them the right way.",
+      "Dead refrigerator, broken washer, old water heater. Appliances are heavy and hard to move alone. We load them out and dispose of them the right way.",
     intro: [
-      "Appliances are some of the heaviest, most awkward items in a home to move solo — sharp edges, dead weight, and doors that swing open at the worst time. We bring the equipment and manpower to move them safely, without gouging your floors or walls on the way out.",
+      "Appliances are some of the heaviest, most awkward items in a home to move solo, with sharp edges, dead weight, and doors that swing open at the worst time. We bring the equipment and manpower to move them safely, without gouging your floors or walls on the way out.",
       "We also handle appliances containing refrigerants or other regulated materials with proper disposal, so you're not left wondering if it was done right.",
     ],
     whatWeTake: [
@@ -66,7 +66,7 @@ export const services: Service[] = [
     ],
     faqs: [
       { q: "Do you disconnect appliances?", a: "We can disconnect simple hookups (washer/dryer hoses, standard plugs). Gas lines or hardwired units should be disconnected by a licensed technician beforehand." },
-      { q: "Do you take non-working appliances?", a: "Yes — working or not, we'll haul it." },
+      { q: "Do you take non-working appliances?", a: "Yes. Working or not, we'll haul it." },
     ],
   },
   {
@@ -75,10 +75,10 @@ export const services: Service[] = [
     shortName: "Garage / Attic / Shed",
     eyebrow: "Years of accumulated stuff, gone in a day",
     summary:
-      "The shed you can't walk into, the attic you're afraid to open, the garage that hasn't fit a car in years — we clear it out top to bottom.",
+      "The shed you can't walk into, the attic you're afraid to open, the garage that hasn't fit a car in years. We clear it out top to bottom.",
     intro: [
-      "Garages, attics, and sheds have a way of becoming storage for everything that doesn't have another home — until one day it's wall to wall and you can't find anything, let alone park a car. We come in, clear it out completely, and leave the space usable again.",
-      "You point at what stays, we haul off the rest — no sorting required on your end unless you want to.",
+      "Garages, attics, and sheds have a way of becoming storage for everything that doesn't have another home, until one day it's wall to wall and you can't find anything, let alone park a car. We come in, clear it out completely, and leave the space usable again.",
+      "You point at what stays, and we haul off the rest. No sorting required on your end unless you want to.",
     ],
     whatWeTake: [
       "Old tools & hardware",
@@ -89,13 +89,13 @@ export const services: Service[] = [
       "General clutter of any kind",
     ],
     process: [
-      { title: "Walk the space with us or send photos", detail: "We'll quote based on volume — how much of the truck it fills." },
-      { title: "We clear it top to bottom", detail: "Attic, shelving, corners — we don't leave the hard-to-reach stuff behind." },
+      { title: "Walk the space with us or send photos", detail: "We'll quote based on volume, meaning how much of the truck it fills." },
+      { title: "We clear it top to bottom", detail: "Attic, shelving, corners. We don't leave the hard-to-reach stuff behind." },
       { title: "Broom-clean when we leave", detail: "The space is left ready to actually use again." },
     ],
     faqs: [
-      { q: "Do I need to be there while you work?", a: "Not necessarily — many customers just show us what to take and go about their day, or leave instructions if you can't be on site." },
-      { q: "What if I only want part of it cleared?", a: "No problem — we only take what you point out." },
+      { q: "Do I need to be there while you work?", a: "Not necessarily. Many customers just show us what to take and go about their day, or leave instructions if you can't be on site." },
+      { q: "What if I only want part of it cleared?", a: "No problem. We only take what you point out." },
     ],
   },
   {
@@ -104,9 +104,9 @@ export const services: Service[] = [
     shortName: "Estate Cleanouts",
     eyebrow: "Full-property clearouts, handled with care",
     summary:
-      "Clearing a loved one's home, prepping a property for sale, or closing out a rental — we handle whole-property cleanouts start to finish.",
+      "Clearing a loved one's home, prepping a property for sale, or closing out a rental. We handle whole-property cleanouts start to finish.",
     intro: [
-      "Estate cleanouts are often handled during a hard time, or under a tight closing deadline. Either way, our crew moves efficiently and respectfully, clearing an entire property — house, garage, outbuildings — so it's ready for the next step, whether that's a realtor's photos or a new tenant.",
+      "Estate cleanouts are often handled during a hard time, or under a tight closing deadline. Either way, our crew moves efficiently and respectfully, clearing an entire property, house, garage, and outbuildings included, so it's ready for the next step, whether that's a realtor's photos or a new tenant.",
       "We work directly with families, executors, realtors, and property managers, and can coordinate timing around closings or showings.",
     ],
     whatWeTake: [
@@ -123,7 +123,7 @@ export const services: Service[] = [
       { title: "Property left move-in or showing ready", detail: "Broom-swept and ready for what's next." },
     ],
     faqs: [
-      { q: "Can you work with a realtor or property manager directly?", a: "Yes — we regularly coordinate directly with realtors, executors, and property managers on timing and access." },
+      { q: "Can you work with a realtor or property manager directly?", a: "Yes. We regularly coordinate directly with realtors, executors, and property managers on timing and access." },
       { q: "Do you separate items for donation or sale?", a: "We can set aside anything you flag for family, donation, or an estate sale before hauling the rest." },
     ],
   },
@@ -133,9 +133,9 @@ export const services: Service[] = [
     shortName: "Yard Debris",
     eyebrow: "Brush, limbs, storm cleanup & more",
     summary:
-      "Storm knocked down limbs, or you've got a pile of brush and yard waste that's been sitting for a season — we load it up and haul it off.",
+      "Storm knocked down limbs, or you've got a pile of brush and yard waste that's been sitting for a season. We load it up and haul it off.",
     intro: [
-      "Yard debris piles up fast — storm damage, a weekend of clearing brush, or just yard waste your regular pickup won't take. We load and haul it in bulk so it's gone in one trip instead of sitting at the curb.",
+      "Yard debris piles up fast, whether it's storm damage or just a weekend of clearing brush and yard waste your regular pickup won't take. We load and haul it in bulk so it's gone in one trip instead of sitting at the curb.",
       "We also handle post-storm cleanup when limbs and debris need to come off the property quickly.",
     ],
     whatWeTake: [
@@ -152,7 +152,7 @@ export const services: Service[] = [
       { title: "Yard left clear", detail: "Debris is hauled and disposed of properly." },
     ],
     faqs: [
-      { q: "Do I need to bag the debris first?", a: "No — leave it as-is, we'll load it directly." },
+      { q: "Do I need to bag the debris first?", a: "No. Leave it as-is, and we'll load it directly." },
       { q: "Can you handle a large storm cleanup?", a: "Yes, we can scale the crew and truck runs for larger storm debris jobs." },
     ],
   },
@@ -162,10 +162,10 @@ export const services: Service[] = [
     shortName: "Household Junk",
     eyebrow: "General clutter, closets, basements & more",
     summary:
-      "Not everything fits a category — old boxes, closets full of clutter, a basement that needs a fresh start. If it needs to go, we'll take it.",
+      "Not everything fits a category: old boxes, closets full of clutter, a basement that needs a fresh start. If it needs to go, we'll take it.",
     intro: [
-      "Not every job is a single category — sometimes it's just a house full of accumulated stuff that needs to go, room by room. We handle general household junk removal for exactly that: closets, basements, spare rooms, whatever's been piling up.",
-      "One call covers all of it — you don't need to separate junk into categories before we arrive.",
+      "Not every job is a single category. Sometimes it's just a house full of accumulated stuff that needs to go, room by room. We handle general household junk removal for exactly that: closets, basements, spare rooms, whatever's been piling up.",
+      "One call covers all of it. You don't need to separate junk into categories before we arrive.",
     ],
     whatWeTake: [
       "General household clutter",
@@ -176,13 +176,13 @@ export const services: Service[] = [
       "Combination loads (furniture + appliances + junk in one trip)",
     ],
     process: [
-      { title: "Text or call for a quote", detail: "Describe what's going, or send photos — we'll quote it fast." },
+      { title: "Text or call for a quote", detail: "Describe what's going, or send photos, and we'll quote it fast." },
       { title: "We load everything in one trip", detail: "No need to sort by category first." },
       { title: "Space cleared", detail: "Donatable items are routed to local charities when possible." },
     ],
     faqs: [
-      { q: "Can I combine multiple types of junk in one pickup?", a: "Yes — that's the most common job we run. Furniture, appliances, and general clutter all in one visit." },
-      { q: "Is there a minimum load size?", a: "No formal minimum — text us what you've got and we'll quote it fairly." },
+      { q: "Can I combine multiple types of junk in one pickup?", a: "Yes, that's the most common job we run. Furniture, appliances, and general clutter all in one visit." },
+      { q: "Is there a minimum load size?", a: "No formal minimum. Text us what you've got and we'll quote it fairly." },
     ],
   },
 ];

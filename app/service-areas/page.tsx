@@ -24,7 +24,7 @@ export default function ServiceAreasPage() {
           </h1>
           <p className="text-ivory/80 max-w-xl">
             Based in Taylorsville, running the full corridor toward
-            Charlotte. Don&rsquo;t see your town? Text us — there&rsquo;s a
+            Charlotte. Don&rsquo;t see your town? Text us. There&rsquo;s a
             good chance we still cover it.
           </p>
         </div>

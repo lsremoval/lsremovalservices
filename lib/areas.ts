@@ -28,7 +28,7 @@ export const areas: Area[] = [
     city: "Statesville",
     county: "Iredell County",
     blurb:
-      "We run regular jobs throughout Statesville — garage cleanouts, appliance pickups, and full property clearouts.",
+      "We run regular jobs throughout Statesville, including garage cleanouts, appliance pickups, and full property clearouts.",
     distanceNote: "~30 min from Taylorsville",
   },
   {

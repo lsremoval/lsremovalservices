@@ -28,27 +28,27 @@ export default function AboutPage() {
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-16 sm:py-20 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr] gap-12 items-start">
         <div className="space-y-5 text-charcoal/80 leading-relaxed">
           <p>
-            L&amp;S Removal Services was founded by Caleb — a working
-            firefighter — and his partner Jeremy, two neighbors who set out
+            L&amp;S Removal Services was founded by Caleb, a working
+            firefighter, and his partner Jeremy, two neighbors who set out
             to bring reliable, fairly priced junk removal to Taylorsville and
-            the surrounding area — the kind of service where the crew shows
-            up on time, quotes it straight, and treats every property with
-            respect.
+            the surrounding area. It&rsquo;s the kind of service where the
+            crew shows up on time, quotes it straight, and treats every
+            property with respect.
           </p>
           <p>
             No job is too small. Whether it&rsquo;s a single item pickup or
-            an entire property cleanout, we handle it the same way — with a
+            an entire property cleanout, we handle it the same way, with a
             straight quote and a crew that actually shows up.
           </p>
           <p>
             We started with single-item furniture pickups around Alexander
             County and have grown to cover the full corridor from
-            Taylorsville to Charlotte — handling everything from a single
+            Taylorsville to Charlotte, handling everything from a single
             recliner to full estate cleanouts, garage-to-attic clearouts,
             and post-storm yard debris.
           </p>
           <p>
-            No call centers, no long intake forms — just text a photo or
+            No call centers, no long intake forms. Just text a photo or
             call, and you&rsquo;ll talk to someone who can actually quote the
             job.
           </p>

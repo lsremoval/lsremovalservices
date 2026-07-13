@@ -107,7 +107,7 @@ export default async function BlogPostPage({
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28">
         <DispatchTicket
           heading="Have a job like this?"
-          subheading="Text a photo of what needs to go — we'll quote it fast."
+          subheading="Text a photo of what needs to go. We'll quote it fast."
         />
       </section>
     </>

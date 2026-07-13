@@ -131,7 +131,7 @@ export default function Home() {
               REAL LOADS, REAL JOBS
             </h2>
             <p className="text-charcoal/70">
-              No stock photos — this is the actual trailer, on actual jobs
+              No stock photos. This is the actual trailer, on actual jobs
               around Taylorsville and Hickory.
             </p>
           </div>
@@ -176,12 +176,12 @@ export default function Home() {
             <p className="text-ivory/80 leading-relaxed">
               That means showing up when we say we will, treating your home
               like it&rsquo;s ours to protect, and doing the job right the
-              first time — no shortcuts, no surprises on the bill.
+              first time, with no shortcuts and no surprises on the bill.
             </p>
           </div>
           <DispatchTicket
             heading="Talk to a real person"
-            subheading="No call centers, no automated forms — just text or call and we'll quote it straight."
+            subheading="No call centers, no automated forms. Just text or call and we'll quote it straight."
           />
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function Home() {
           </h2>
           <p className="text-charcoal/70">
             Based in Taylorsville and running the full corridor toward
-            Charlotte. If your town isn&rsquo;t listed, text us anyway —
+            Charlotte. If your town isn&rsquo;t listed, text us anyway,
             there&rsquo;s a good chance we still cover it.
           </p>
         </div>
